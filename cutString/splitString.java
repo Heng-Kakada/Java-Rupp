@@ -26,7 +26,7 @@ public class splitString {
 
         System.out.println("Name \t Sex \t  Score");
         for (int i = 0; i < n; i++){
-            System.out.println( "%s \t %s \t %.2f".formatted(name[i], sex[i], score[i]) );
+            System.out.println("%s \t %s \t %.2f".formatted(name[i], sex[i], score[i]));
         }
         
     }
